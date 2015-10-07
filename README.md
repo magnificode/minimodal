@@ -2,7 +2,7 @@
 A lightweight lightbox so light it's lighter than light.
 
 ## Usage
-MiniModal requires jQuery version 1.7.0 or higher,
+MiniModal requires jQuery version 1.3.0 or higher,
 
 ```html
 <script src="//code.jquery.com/jquery-latest.js"></script>
