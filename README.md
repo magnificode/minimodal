@@ -1,8 +1,19 @@
 # MiniModal
-A lightweight jQuery lightbox plugin so light it's lighter than light.
+A lightweight jQuery lightbox plugin so light it's lighter than light. The CSS and JS file combined is only 1.129kb 🎉🔥🔥🔥🎉.
 
 ## Usage
 MiniModal requires jQuery version 1.3.0 or higher,
+
+```html
+<script src="//code.jquery.com/jquery-latest.js"></script>
+<script src="mini-modal.min.js" type="text/javascript" charset="utf-8"></script>
+```
+
+There's super minimal CSS as well. You can certainly lump this in as a partial if you're using SASS or LESS, but this CSS is really easy to override.
+
+```html
+<link rel="stylesheet" href="src/mini-modal.min.css">
+```
 
 ```html
 <script src="//code.jquery.com/jquery-latest.js"></script>
