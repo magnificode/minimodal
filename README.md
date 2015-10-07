@@ -1,5 +1,5 @@
 # MiniModal
-A lightweight lightbox so light it's lighter than light.
+A lightweight jQuery lightbox plugin so light it's lighter than light.
 
 ## Usage
 MiniModal requires jQuery version 1.3.0 or higher,
