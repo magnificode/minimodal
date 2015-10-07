@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mini Modal</title>
+    <link rel="stylesheet" href="src/mini-modal.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:700|PT+Serif' rel='stylesheet' type='text/css'>
+    <style media="screen">
+        html{
+            align-items: center;
+            display: flex;
+            height: 100%;
+            justify-content: center;
+        }
+        body{
+            color: #1a1a1a;
+            background: #efefef;
+            font-family: 'PT Serif', serif;
+        }
+        h1{
+            font-family: Montserrat, serif;
+            font-size: 10vw;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        a{
+            color: #ED345F;
+        }
+        .mini-modal-preview img{
+            float: left;
+            max-width: 250px;
+        }
+        .intro,.example,.download,.github{
+            text-align: center;
+            padding-bottom: 20px;
+            padding-top: 20px;
+        }
+        .btn{
+            display: inline-block;
+            padding: 1em;
+            border: 2px solid #ED345F;
+            text-decoration: none;
+            transition: background 400ms, color 400ms;
+        }
+        .btn p{
+            margin: 0;
+        }
+        .btn:hover{
+            background: #ED345F;
+            color: #efefef;
+        }
+        .btn-black{
+            border-color: #1a1a1a;
+            color: #1a1a1a;
+        }
+        .btn-black:hover{
+            background: #1a1a1a;
+        }
+    </style>
+</head>
+<body>
+    <section class="intro">
+        <h1>MiniModal</h1>
+        <p>A lightweight lightbox so light it's lighter than light.</p>
+    </section>
+    <section class="example">
+        <a href="#" class="btn" data-minimodal>
+            <div>
+                <p>Demo Clicker</p>
+                <div class="" data-minimodal-content>
+                    <img src="http://fillmurray.com/1024/768" alt="">
+                </div>
+            </div>
+        </a>
+    </section>
+    <section class="download">
+        <div class="github">
+			<iframe class="github-btn" src="http://ghbtns.com/github-btn.html?user=magnificode&amp;repo=minimodal&amp;type=watch&amp;count=true" allowtransparency="true" frameborder="0" scrolling="0" width="100px" height="20px"></iframe>
+			<iframe class="github-btn" src="http://ghbtns.com/github-btn.html?user=magnificode&amp;repo=minimodal&amp;type=fork&amp;count=true" allowtransparency="true" frameborder="0" scrolling="0" width="102px" height="20px"></iframe>
+		</div>
+        <a href="https://github.com/magnificode/minimodal/" class="btn btn-black">Grab the code on GitHub</a>
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.3.0/jquery.min.js"></script>
+    <script type="text/javascript" src="src/mini-modal.min.js"></script>
+    <script type="text/javascript">
+    $('*[data-minimodal]').click(function(){
+        miniModal();
+    });
+    </script>
+</body>
+</html>
