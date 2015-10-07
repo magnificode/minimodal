@@ -22,8 +22,8 @@ Ex.
 <div data-minimodal>
     <div>
         <p>Demo Clicker</p>
-        <div class="" data-minimodal-content>
-            <img src="http://fillmurray.com/1024/768" alt="">
+        <div data-minimodal-content>
+            <img src="http://fillmurray.com/1024/768">
         </div>
     </div>
 </div>
