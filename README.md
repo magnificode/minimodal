@@ -15,11 +15,6 @@ There's super minimal CSS as well. You can certainly lump this in as a partial i
 <link rel="stylesheet" href="src/mini-modal.min.css">
 ```
 
-```html
-<script src="//code.jquery.com/jquery-latest.js"></script>
-<script src="mini-modal.min.js" type="text/javascript" charset="utf-8"></script>
-```
-
 It's easy. Just add `data-minimodal` to the wrapper of the content you'd like to modal, and then add `data-minimodal-content` to the actual content you'd like to appear in the modal.
 
 Ex.
