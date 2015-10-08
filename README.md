@@ -28,3 +28,9 @@ Ex.
     </div>
 </div>
 ```
+
+```js
+$('*[data-minimodal]').click(function(){
+    miniModal();
+});
+```
